@@ -1,1 +1,2 @@
 datasette/*.db
+datasette/inspect-data.json
