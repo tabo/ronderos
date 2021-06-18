@@ -1,0 +1,26 @@
+---
+title: ✏️  Cyber Ronderos ✏️  - Periodismo ciudadano
+license: CC Attribution 4.0 License
+license_url: http://creativecommons.org/licenses/by/4.0/
+about: ✏️  ronderos.pe
+about_url: https://ronderos.pe/
+databases:
+  elecciones_peru_2021:
+    source: tabo/elecciones_peru_2021 en GitHub
+    source_url: https://github.com/tabo/elecciones_peru_2021
+    tables:
+      presidencial:
+        source: tabo/elecciones_peru_2021 en GitHub
+        source_url: https://github.com/tabo/elecciones_peru_2021
+        description_html: |-
+          ✏️  Tabla resumen de toda la elección presidencial de 2021.<br/>
+          ✏️  Prefijos v1 y v2 son para 1era y 2da vuelta.<br/>
+          ✏️  Si has votado por un Fujimori no vas a entender nada de lo
+          que hay aquí, mejor
+          <a href="https://www.youtube.com/watch?v=VsBECnTNQKk">estudia lo que se te viene</a>.<br/>
+          ✏️  Ojo, esta es una tabla resumen de toda la base de datos publicada.
+          Puedes acceder a toda la información en
+          <a href="https://ronderos.pe/datasette/elecciones_peru_2021">nuestro portal electoral</a>.<br/>
+          ✏️  Para sacarle el jugo a toda la información que ofrecemos, haciendo cruces de datos y verificaciones,
+          chapa tu nerd para que escriba SQL para ti.
+

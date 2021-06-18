@@ -1,0 +1,7 @@
+{
+    "base_url": "/datasette/",
+    "force_https_urls": 1,
+    "hash_urls": 1,
+    "num_sql_threads": 10,
+    "default_cache_ttl": 31536000
+}
