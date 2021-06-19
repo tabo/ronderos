@@ -22,16 +22,16 @@ databases:
           Puedes acceder a toda la información en
           <a href="https://ronderos.pe/datasette/elecciones_peru_2021">nuestro portal electoral</a>.<br/>
           ✏️  Para sacarle el jugo a toda la información que ofrecemos, haciendo cruces de datos y verificaciones,
-          chapa tu nerd para que escriba SQL para ti.
-          ✏️  Los servidores de ONPE de 1era vuelta está botando muchos errores, por lo que obtener toda esta data es un proceso lento. Hay un rondero que va a actualizando la bd, pero estamos en un mar de backend timeouts 504. Ya faltan menos de 1000 actas, ahi vamos.<br/>
-          ✏️  ONPE sigue actualizando datos de 2da vuelta con las resoluciones que vienen de JNE, y tenemos un rondero actualizando esta información constantemente.</b>
+          chapa tu nerd para que escriba SQL para ti.<br/>
+          ✏️  Los servidores de ONPE de 1era vuelta está botando muchos errores, por lo que obtener toda esta data es un proceso lento. Hay un rondero que va actualizando la bd, pero estamos en un mar de backend timeouts 504. Solo <a href="https://ronderos.pe/datasette/elecciones_peru_2021/v1_mesas_faltantes">faltan 579 actas</a>, ahi vamos.<br/>
+          ✏️  ONPE sigue actualizando datos de 2da vuelta con las resoluciones que vienen de JNE, y tenemos un rondero actualizando esta información constantemente. <b>Esto hace que el Open Data de ONPE ya sea obsoleto.</b> (<a href="https://ronderos.pe/datasette/elecciones_peru_2021/v2_diferencias_open_data">ver diferencias</a>)<br/>
           ✏️  Preguntas/consultas/reportes al cyber rondero <a href="https://twitter.com/tabo">@tabo</a> en Twitter, que por ahora sigue nadando en lágrimas fujimoristas.
       actas_20210411:
         source: tabo/elecciones_peru_2021 en GitHub
         source_url: https://github.com/tabo/elecciones_peru_2021
         description_html: |-
             Actas de primera vuelta<br/>
-            Nota: Los servidores de ONPE de 1era vuelta está botando muchos errores, por lo que obtener toda esta data es un proceso lento. Hay un rondero que va a actualizando la bd, pero estamos en un mar de backend timeouts 504.
+            Nota: Los servidores de ONPE de 1era vuelta está botando muchos errores, por lo que obtener toda esta data es un proceso lento. Hay un rondero que va actualizando la bd, pero estamos en un mar de backend timeouts 504.
       actas_20210606:
         source: tabo/elecciones_peru_2021 en GitHub
         source_url: https://github.com/tabo/elecciones_peru_2021
@@ -56,11 +56,11 @@ databases:
         description: Mesas de segunda vuelta
       onpe_pcm_v1:
         source: datos abiertos ONPE
-        source_url: https://twitter.com/ONPE_oficial/status/1405924353615749128
+        source_url: https://www.datosabiertos.gob.pe/dataset/resultados-por-mesa-de-las-elecciones-presidenciales-2021-primera-vuelta-oficina-nacional-de
         description: Resúmen publicado por ONPE - Primera vuelta
       onpe_pcm_v2:
         source: datos abiertos ONPE
-        source_url: https://twitter.com/ONPE_oficial/status/1405924353615749128
+        source_url: https://www.datosabiertos.gob.pe/dataset/resultados-por-mesa-de-las-elecciones-presidenciales-2021-segunda-vuelta-oficina-nacional-de
         description: Resúmen publicado por ONPE - Segunda Vuelta
       resoluciones_20210411:
         source: tabo/elecciones_peru_2021 en GitHub
