@@ -23,7 +23,7 @@ databases:
           <a href="https://ronderos.pe/datasette/elecciones_peru_2021">nuestro portal electoral</a>.<br/>
           ✏️  Para sacarle el jugo a toda la información que ofrecemos, haciendo cruces de datos y verificaciones,
           chapa tu nerd para que escriba SQL para ti.<br/>
-          ✏️  Los servidores de ONPE de 1era vuelta está botando muchos errores, por lo que obtener toda esta data es un proceso lento. Hay un rondero que va actualizando la bd, pero estamos en un mar de backend timeouts 504. Solo <a href="https://ronderos.pe/datasette/elecciones_peru_2021/v1_mesas_faltantes">faltan 579 actas</a>, ahi vamos.<br/>
+          ✏️  Los servidores de ONPE de 1era vuelta está botando muchos errores, por lo que obtener toda esta data es un proceso lento. Hay un rondero que va actualizando la bd, pero estamos en un mar de backend timeouts 504. Solo <a href="https://ronderos.pe/datasette/elecciones_peru_2021/v1_mesas_faltantes">faltan 415 actas</a>, ahi vamos.<br/>
           ✏️  ONPE sigue actualizando datos de 2da vuelta con las resoluciones que vienen de JNE, y tenemos un rondero actualizando esta información constantemente. <b>Esto hace que el Open Data de ONPE ya sea obsoleto.</b> (<a href="https://ronderos.pe/datasette/elecciones_peru_2021/v2_diferencias_open_data">ver diferencias</a>)<br/>
           ✏️  Preguntas/consultas/reportes al cyber rondero <a href="https://twitter.com/tabo">@tabo</a> en Twitter, que por ahora sigue nadando en lágrimas fujimoristas.
       actas_20210411:
