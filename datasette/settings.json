@@ -2,6 +2,7 @@
     "base_url": "/datasette/",
     "force_https_urls": 1,
     "num_sql_threads": 10,
-    "default_cache_ttl": 31536000,
-    "facet_time_limit_ms": 2000
+    "default_cache_ttl": 21600,
+    "facet_time_limit_ms": 2000,
+    "sql_time_limit_ms": 2000
 }
