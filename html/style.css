@@ -1,0 +1,109 @@
+:root {
+  --base-size: 4px;
+  --gray-01: #e9e9e9;
+}
+
+/* Global */
+html,
+body,
+main {
+  font-family: "Open Sans", sans-serif;
+  min-height: 100%;
+}
+
+/* Elements */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 0.6em;
+}
+
+p {
+  margin-top: 0;
+}
+
+dl {
+}
+dt {
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-size: 1.1em;
+}
+dd {
+  margin-left: 0;
+  margin-bottom: 16px;
+}
+
+a {
+  color: #0170fe;
+  display: inline-block;
+  padding: 0 4px;
+  transition: 0.2s ease-in-out;
+}
+a:hover {
+  background-color: var(--gray-01);
+  border-radius: 4px;
+}
+
+/* Helpers */
+
+.mb-1 {
+  margin-bottom: calc(var(--base-size) * 1);
+}
+.mb-2 {
+  margin-bottom: calc(var(--base-size) * 2);
+}
+.mb-3 {
+  margin-bottom: calc(var(--base-size) * 3);
+}
+.mb-4 {
+  margin-bottom: calc(var(--base-size) * 4);
+}
+
+/* Components */
+
+.container {
+  margin: 0 auto;
+  max-width: 100%;
+  width: calc(100% - 32px);
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 1024px;
+  }
+}
+
+main {
+  padding-top: 16px;
+}
+
+@media screen and (min-width: 992px) {
+  main {
+    padding-top: 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    padding-top: 32px;
+  }
+}
+
+.separator {
+  background: var(--gray-01);
+  border: 0;
+  clear: both;
+  display: block;
+  height: 1px;
+}
